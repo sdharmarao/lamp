@@ -1,0 +1,7 @@
+---
+- name: Install php packages
+  package: name="{{ item }}" state=present
+  with_items:
+     - php
+     - php-mysql
+  notify: start appache

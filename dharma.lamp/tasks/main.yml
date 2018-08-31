@@ -1,0 +1,6 @@
+---
+# tasks file for dharma.lamp
+
+- include: appache.yml
+- include: mysql.yml
+- include: php.yml

@@ -1,0 +1,8 @@
+---
+# vars file for dharma.lamp
+ root_db_password: password123
+ db_user_name: sdrao
+ db_user_pass: Dharma@786
+ db_name: dharma1
+ db_host: 192.168.56.14
+  
